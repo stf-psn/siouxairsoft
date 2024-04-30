@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom'; // Importa Link per la navigazione
 
 function Home() {
   return (
@@ -9,7 +10,13 @@ function Home() {
         <h2 id="leftdivsubtitle">UN NUOVO MODO DI GIOCARE</h2>
         <p id="leftdivtext">Scopri il Team Sioux, dove strategia incontra divertimento! <br>
         </br>Gioca con gli amici, trovane di nuovi e crea ricordi indimenticabili.</p>
-        <Button id="ctaentranelteam" variant="contained">ENTRA NEL TEAM</Button>
+        <Button
+  id="ctaentranelteam"
+  variant="contained"
+  sx={{ borderRadius: 20 }} /* Add this to make the button rounded */
+>
+<Link to="/entranelteam" style={{ textDecoration: 'none', fontFamily: 'Helvetica, Arial, sans-serif', color: '#fff'}}><b>ENTRA NEL TEAM</b></Link>
+</Button>
       </div>
       <div className="right-section">
       <img

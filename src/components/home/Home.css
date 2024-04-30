@@ -41,7 +41,7 @@
 /* Media query for desktop devices */
 @media (min-width: 769px) {
   #leftdivsubtitle {
-    font-size: 64px; /* Increase font size for desktop devices */
+    font-size: 75px; /* Increase font size for desktop devices */
   }
 }
 

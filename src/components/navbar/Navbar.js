@@ -102,7 +102,7 @@ const Navbar = () => {
                         </Typography>
                         <Box sx={{ flexGrow: 1 }} />
                         {pages.map((page, index) => (
-                            <Typography key={page.name} variant="body1" sx={{ marginRight: 4, fontSize: 21, color: '#000', fontWeight: 700 }}>
+                            <Typography key={page.name} variant="body1" sx={{ marginRight: 4, fontSize: 21, color: '#000', fontWeight: 500 }}>
                                 <Link to={page.path} style={{ textDecoration: 'none', color: '#000' }}>
                                     {page.name}
                                 </Link>

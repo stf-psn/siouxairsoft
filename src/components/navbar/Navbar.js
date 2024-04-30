@@ -98,11 +98,11 @@ const Navbar = () => {
                     <>
                         <Typography variant="h6" component="div" sx={{ display: 'flex', alignItems: 'center' }}>
                             <img src="https://i.ibb.co/9gfdpHZ/logo.png" alt="logo" border="0" style={{ width: 70, height: 70, marginLeft: 35, marginRight: 20, marginTop: 10, marginBottom: 10 }} />
-                            <Link to="/" style={{ textDecoration: 'none', fontSize: 20, fontFamily: 'Helvetica, Arial, sans-serif', color: '#000' }}>SIOUX AIRSOFT</Link>
+                            <Link to="/" style={{ textDecoration: 'none', fontSize: 20, fontFamily: 'Helvetica, Arial, sans-serif', color: '#000' }}><b>SIOUX AIRSOFT TEAM</b></Link>
                         </Typography>
                         <Box sx={{ flexGrow: 1 }} />
                         {pages.map((page, index) => (
-                            <Typography key={page.name} variant="body1" sx={{ marginRight: 4, fontSize: 21, color: '#000' }}>
+                            <Typography key={page.name} variant="body1" sx={{ marginRight: 4, fontSize: 21, color: '#000', fontWeight: 700 }}>
                                 <Link to={page.path} style={{ textDecoration: 'none', color: '#000' }}>
                                     {page.name}
                                 </Link>
@@ -121,7 +121,7 @@ const Navbar = () => {
                         </IconButton>
                         <Typography variant="h6" component="div" sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexGrow: 1 }}>
                             <img src="https://i.ibb.co/9gfdpHZ/logo.png" alt="logo" border="0" style={{ width: 70, height: 70, marginRight: 10, marginTop: 10, marginBottom: 10 }} />
-                            <Link to="/" style={{ textDecoration: 'none', fontSize: 20, fontFamily: 'Helvetica, Arial, sans-serif', color: '#000' }}>SIOUX AIRSOFT</Link>
+                            <Link to="/" style={{ textDecoration: 'none', fontSize: 20, fontFamily: 'Helvetica, Arial, sans-serif', color: '#000' }}><b>SIOUX AIRSOFT TEAM</b></Link>
                         </Typography>
                     </>
                 )}

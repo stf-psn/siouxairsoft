@@ -21,15 +21,16 @@ function Home() {
           </p>
           <Button
             id="ctaentranelteam"
-            variant="contained"
-            sx={{ borderRadius: 20 }} /* Add this to make the button rounded */
+            variant="contained" /* bottone da colorare di nero !!! */
+            sx={{ borderRadius: 20, backgroundColor: "#000"}} /* Add this to make the button rounded */
           >
             <Link
               to="/entranelteam"
               style={{
                 textDecoration: "none",
                 fontFamily: "Helvetica, Arial, sans-serif",
-                color: "#fff",
+                color: "#fff"
+                
               }}
             >
               <b>ENTRA NEL TEAM</b>

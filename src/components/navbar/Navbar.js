@@ -18,7 +18,7 @@ const pages = [
     { name: 'Home', path: '/home' },
     { name: 'Su di noi', path: '/sudinoi' },
     { name: 'Entra nel Team', path: '/entranelteam' },
-    { name: 'Photogallery', path: '/photogallery' },
+    { name: 'Social', path: '/socialmedia' },
     { name: 'Contatti', path: '/contatti' },
 ];
 

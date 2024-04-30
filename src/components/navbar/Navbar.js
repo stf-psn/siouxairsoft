@@ -15,7 +15,7 @@ import './Navbar.css';
 import CloseIcon from '@mui/icons-material/Close';
 
 const pages = [
-    { name: 'Home', path: '/' },
+    { name: 'Home', path: '/home' },
     { name: 'Su di noi', path: '/sudinoi' },
     { name: 'Entra nel Team', path: '/entranelteam' },
     { name: 'Photogallery', path: '/photogallery' },

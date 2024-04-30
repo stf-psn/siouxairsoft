@@ -1,0 +1,63 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left-section {
+    width: 50%;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .right-section {
+    width: 50%;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+
+  /* For mobile and tablet devices */
+@media (max-width: 768px) {
+    .home-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .navbar {
+      width: 100%;
+      text-align: center;
+    }
+    .home-content {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  #leftdivsubtitle {
+    font-size: 36px; /* Default font size for mobile and tablet devices */
+  }
+  
+  /* Media query for desktop devices */
+  @media (min-width: 769px) {
+    #leftdivsubtitle {
+      font-size: 64px; /* Increase font size for desktop devices */
+    }
+  }
+
+  #leftdivtext {
+    font-weight: bold; /* Make the text bold */
+    margin-top: -10px; /* Move the text 10px closer to the title */
+  }
+
+  #ctaentranelteam {
+    margin-top: 20px;
+  }
+
+
+  /* For mobile and tablet devices */
+@media (max-width: 768px) {
+  .left-section, .right-section {
+    width: 100%; /* Set width to 100% on mobile and tablet devices */
+  }
+}

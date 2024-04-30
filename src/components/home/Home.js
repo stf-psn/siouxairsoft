@@ -46,6 +46,20 @@ function Home() {
         </div>
       </div>
 
+      <div className="content-container">
+        <h2 id="content-title">Qualcosa su di noi</h2>
+        <iframe
+          width="100%"
+          height="500"
+          src="https://www.youtube.com/embed/u93ihDpmz2c"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <p id="content-subtitle"><b>Sioux Airsoft</b>: Dove ogni <b>membro</b> è essenziale. Un Tributo alla forza della <b>comunità</b>.</p>
+      </div>
+
     </>
     
   );
